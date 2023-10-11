@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from './Home';
 import Transition from './Transition'; // Import the AnimatedRouteTransition component
-import Web from './Web';
+import DragonBall from './DragonBall';
 import { AnimatePresence } from 'framer-motion';
 
 function Navigation() {
@@ -18,7 +18,7 @@ function Navigation() {
               </Link>
             </li>
             <li className="flex-auto p-4">
-              <Link to="/web" className="transition-text duration-300 hover:text-red font-semibold text-lg">
+              <Link to="/dragonball" className="transition-text duration-300 hover:text-red font-semibold text-lg">
                 Dragon Ball
               </Link>
             </li>
@@ -33,7 +33,7 @@ function Navigation() {
 
         <Routes>
           <Route path="/" element={<Transition><Home /></Transition>} />
-          <Route path="/web" element={<Transition><Web /></Transition>} />
+          <Route path="/dragonball" element={<Transition><DragonBall /></Transition>} />
           {/* Add more routes for other components */}
         </Routes>
 

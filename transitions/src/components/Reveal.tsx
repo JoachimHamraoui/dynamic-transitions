@@ -6,7 +6,7 @@ interface Props {
     width?: "fit-content" | "100%" ;
 }
 
-export const Reveal = ({ children, width = "fit-content"}: Props) => {
+export const Reveal = ({ children, width = "100%"}: Props) => {
 
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true})
@@ -24,7 +24,7 @@ export const Reveal = ({ children, width = "fit-content"}: Props) => {
     }, [isInView])
 
     return (
-        <div ref={ref} style={{position: "relative", width, overflow:"hidden" }}>
+        <div ref={ref} style={{width, overflow:"hidden" }}>
             <motion.div
             variants={{
                 hidden: {opacity: 0, y: 75},
@@ -32,7 +32,7 @@ export const Reveal = ({ children, width = "fit-content"}: Props) => {
             }}
             initial="hidden"
             animate={mainControls}
-            transition={{ duration: 0.5, delay: 1}}
+            transition={{ duration: 0.5, delay: 0.5}}
             >{children}</motion.div>
         </div>
     )
