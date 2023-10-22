@@ -1,0 +1,51 @@
+[
+    {
+      "img": "./gallery/akira/1.jpg",
+      "title": "Fern"
+    },
+    {
+        "img": "./gallery/akira/2.jpg",
+        "title": "Fern"
+      },
+      {
+        "img": "./gallery/akira/3.jpg",
+        "title": "Fern"
+      },
+      {
+        "img": "./gallery/akira/4.jpg",
+        "title": "Fern"
+      },
+      {
+        "img": "./gallery/akira/5.jpg",
+        "title": "Fern"
+      },
+      {
+        "img": "./gallery/akira/6.jpg",
+        "title": "Fern"
+      },
+      {
+        "img": "./gallery/akira/7.jpg",
+        "title": "Fern"
+      },
+      {
+          "img": "./gallery/akira/8.jpg",
+          "title": "Fern"
+        },
+        {
+          "img": "./gallery/akira/9.jpg",
+          "title": "Fern"
+        },
+        {
+          "img": "./gallery/akira/10.jpg",
+          "title": "Fern"
+        },
+        {
+          "img": "./gallery/akira/11.jpg",
+          "title": "Fern"
+        },
+        {
+          "img": "./gallery/akira/12.jpg",
+          "title": "Fern"
+        }
+  ]
+  

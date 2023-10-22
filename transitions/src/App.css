@@ -2,8 +2,21 @@
   --primary-color: rgb(41, 207, 82);
 }
 
+::selection {
+  background-color: #ec3137;
+  color: #ffffff;
+}
+
 body {
 background-color: #ffffff;
+}
+
+nav {
+  z-index: 500 !important;
+}
+
+.trans {
+  z-index: 550 !important;
 }
 
 li {
@@ -41,5 +54,13 @@ font-family: Coolvetica;
   height: 100vh;
   /* background-color: var(--primary-color); */
   transform-origin: bottom;
+}
+
+.item {
+  stroke-width: 20 !important;
+}
+
+svg path {
+  stroke-width: 5px;
 }
 

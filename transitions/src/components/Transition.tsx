@@ -17,7 +17,7 @@ const Transition: React.FC<TransitionProps> = ({ children }) => {
         animate={{ scaleY: [0, 1, 0] }}
         exit={{ scaleY: 1 }}
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-        className='slide-in bg-red z-50'
+        className='slide-in bg-red trans'
       />
       <motion.div
   initial={{ opacity: 0 }}
