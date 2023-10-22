@@ -1,0 +1,66 @@
+:root {
+  --primary-color: rgb(41, 207, 82);
+}
+
+::selection {
+  background-color: #ec3137;
+  color: #ffffff;
+}
+
+body {
+background-color: #ffffff;
+}
+
+nav {
+  z-index: 500 !important;
+}
+
+.trans {
+  z-index: 550 !important;
+}
+
+li {
+color: #2a2a2a;
+}
+
+h1 {
+  line-height: 0.8 !important;
+}
+
+svg {
+  fill: var(--primary-color) !important;
+  width: 200px;
+}
+
+/* h1 {
+font-family: Coolvetica;
+} */
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* background-color: var(--primary-color); */
+  transform-origin: top;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* background-color: var(--primary-color); */
+  transform-origin: bottom;
+}
+
+.item {
+  stroke-width: 20 !important;
+}
+
+svg path {
+  stroke-width: 5px;
+}
+
